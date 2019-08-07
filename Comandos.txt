@@ -1,0 +1,3 @@
+Para colocar videos da GoPro em um só arquivo:
+
+ffmpeg -i VIDEO1 -i VIDEO2 -i VIDEO3 -qscale - OUTPUT.mp4
