@@ -1,3 +1,4 @@
 Para colocar videos da GoPro em um só arquivo:
 
 ffmpeg -i VIDEO1 -i VIDEO2 -i VIDEO3 -qscale - OUTPUT.mp4
+awk -v cmd='openssl x509 -noout -subject' '/BEGIN/{close(cmd)};{print | cmd}' < ca-certificates.crt
